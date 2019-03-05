@@ -16,7 +16,7 @@ boolean autoZoom = true;
 
 void setup() {
   size(640, 640);
-  background(50);
+  background(0);
   stroke(255);
   strokeWeight(1);
   textAlign(LEFT, BOTTOM);
@@ -24,7 +24,7 @@ void setup() {
 }
 
 void draw() {  
-  background(50);
+  background(0);
   translate(width/2, height/2);
   noFill();
 
